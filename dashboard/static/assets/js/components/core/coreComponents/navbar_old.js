@@ -32,11 +32,11 @@ export function Navbar() {
 	if (currentLocation.pathname === "/"){
 		TabTitle("Scoop Investment");
 	} else if (currentLocation.pathname === "/resources"){
-		TabTitle("SI | Resources");
+		TabTitle("Scoop Investment | Resources");
 	} else if (currentLocation.pathname === "/mutual-funds"){
-		TabTitle("SI | Mutual Funds");
+		TabTitle("Scoop Investment | Mutual Funds");
 	} else if (currentLocation.pathname === "/contact"){
-		TabTitle("SI | Contact");
+		TabTitle("Scoop Investment | Contact");
 	}
 
 	function CheckLogin() {

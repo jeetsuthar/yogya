@@ -1,0 +1,14 @@
+.backgroundImage {
+    background-image: url(../../../../img/client_login/gridBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .inputFields {
+    transition: 0.3s ease;
+  }
+  .inputFields:focus {
+    outline: none;
+    box-shadow: rgba(61, 113, 134, 0.3) 2px 2px 1px 0px;
+  }
+  
